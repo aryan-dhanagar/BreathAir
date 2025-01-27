@@ -1,0 +1,9 @@
+div class="container">
+            <h2 id="">Contact Information</h2>
+            <p>If you have any questions, concerns, or need assistance regarding these terms and conditions or any of
+                our products, feel free to contact us:</p>
+            <ul class="contact-info">
+                <li>Email: <a href="mailto:breathair666@gmail.com">breathair666@gmail.com</a></li>
+
+            </ul>
+        </div>

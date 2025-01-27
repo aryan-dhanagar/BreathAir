@@ -1,0 +1,209 @@
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  /* For bold headings */
+}
+
+p,
+a {
+  font-weight: 400;
+  /* For regular text */
+}
+
+/* Global Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+
+  text-align: center;
+}
+
+.top-bar {
+  background-color: #444;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00d4ff;
+}
+
+.nav-icons a {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00d4ff;
+}
+
+.nav-icons a {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/* Contact Us Section */
+.contact-us {
+  max-width: 600px;
+  margin: 50px auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 70px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #222;
+}
+
+.contact-header p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.contact-header a {
+  color: #d11010;
+  text-decoration: none;
+}
+
+.contact-header a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #444;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #222;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit-btn {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #111;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 20px;
+  /* Icon size */
+  color: #797979;
+  /* Icon color */
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #0073e6;
+  /* Change icon color on hover */
+}
+
+.social-icons i {
+  margin-right: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+  margin-top: 2rem;
+}

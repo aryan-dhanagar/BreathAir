@@ -1,0 +1,137 @@
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    /* For bold headings */
+}
+
+p,
+a {
+    font-weight: 400;
+    /* For regular text */
+}
+
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+
+    text-align: center;
+}
+
+.top-bar {
+    background-color: #444;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00d4ff;
+}
+
+.nav-icons a {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#about {
+    background: url('about\ breathair\ 2.2.jpg') center/cover no-repeat;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about h2:hover {
+    color: red;
+    /* Change color to red on hover */
+}
+
+#about p {
+    font-size: 22px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: bold;
+}
+
+#about p:hover {
+    color: red;
+    /* Change color to red on hover */
+}
+
+.social-icons a {
+    margin-right: 10px;
+    font-size: 20px;
+    /* Icon size */
+    color: #797979;
+    /* Icon color */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #0073e6;
+    /* Change icon color on hover */
+}
+
+.social-icons i {
+    margin-right: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: #fff;
+    margin-top: 3px;
+}
+
+strong {
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    font-size: 25px;
+}
