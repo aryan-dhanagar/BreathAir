@@ -1,0 +1,151 @@
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    /* For bold headings */
+}
+
+p,
+a {
+    font-weight: 400;
+    /* For regular text */
+}
+
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+
+    text-align: center;
+}
+
+.top-bar {
+    background-color: #444;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00d4ff;
+}
+
+.nav-icons a {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Terms and Conditions Styling */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+    /* Centering terms title */
+}
+
+.content {
+    background: url('smoke.jpg') no-repeat center center/cover;
+    color: #fff;
+    /* White text for readability */
+    text-align: justify;
+    /* Justify text */
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact section styling */
+.contact-info {
+    display: flex;
+    /* Arrange items in a row */
+    justify-content: center;
+    /* Center align items horizontally */
+    gap: 20px;
+    /* Add spacing between items */
+    list-style: none;
+    /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    /* Adjust font size */
+}
+
+.contact-info li {
+    display: inline;
+    /* Make list items inline */
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #d11010;
+    /* Link color */
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #004a99;
+    /* Hover color */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: #fff;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    font-size: 20px;
+    /* Icon size */
+    color: #797979;
+    /* Icon color */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #0073e6;
+    /* Change icon color on hover */
+}
+
+.social-icons i {
+    margin-right: 8px;
+}
